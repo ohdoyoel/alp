@@ -373,8 +373,8 @@ async function loadData() {
     setLoading(true);
 
     // 데이터 파일 경로 설정 (상대 경로 사용)
-    const nodesFile = `result/${selectedDataset}_${selectedAlgorithm}_nodes.csv`;
-    const edgesFile = `result/${selectedDataset}_${selectedAlgorithm}_edges.csv`;
+    const nodesFile = `info/${selectedDataset}_${selectedAlgorithm}_nodes.csv`;
+    const edgesFile = `info/${selectedDataset}_${selectedAlgorithm}_edges.csv`;
 
     const [nodes, edges] = await Promise.all([
       loadCSV(nodesFile),
