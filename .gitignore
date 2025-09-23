@@ -1,0 +1,86 @@
+# Python 관련 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 관련 파일들
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 운영체제 관련 파일들
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 실험 결과 및 임시 파일들
+*.log
+*.tmp
+temp/
+tmp/
+
+# 데이터셋 파일들 (크기가 큰 경우)
+# *.txt
+# *.csv
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# pytest 캐시
+.pytest_cache/
+
+# coverage 리포트
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# 환경 변수 파일
+.env
+.env.local
+.env.*.local
+
+# 로그 파일들
+*.log
+
+# 패키지 관리자 캐시
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 임시 디렉토리
+__temp__/
+.temp/
+
+# 결과 파일 디렉토리
+result/
