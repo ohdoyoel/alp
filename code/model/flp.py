@@ -1,7 +1,6 @@
 import torch
 import networkx as nx
 from model.label_propagation import custom_asyn_lpa_communities
-from utils import compute_fixed_alpha_similarity
 import time
 
 def fixed_alpha_label_propagation(data, labels, fixed_alpha, structure_similarity=None, location_similarity=None, verbose=False):

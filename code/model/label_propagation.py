@@ -1,10 +1,10 @@
 # The original code is from the NetworkX library.
 # Check https://networkx.org/documentation/latest/_modules/networkx/algorithms/community/label_propagation.html#asyn_lpa_communities
 
-from collections import Counter, defaultdict, deque
+from collections import Counter, defaultdict
 
 import networkx as nx
-from networkx.utils import groups, not_implemented_for, py_random_state
+from networkx.utils import groups, py_random_state
 
 @py_random_state(2)
 @nx._dispatchable(edge_attrs="weight")

@@ -1,11 +1,7 @@
 import numpy as np
-import psutil
-from sklearn.metrics import adjusted_rand_score
 import torch
 from scipy.sparse import csr_matrix
-from collections import defaultdict, Counter
-import os
-import pandas as pd
+from collections import defaultdict
 
 def _to_numpy(x):
     """Convert torch tensor to numpy array if needed."""

@@ -1,7 +1,6 @@
 import torch
 import networkx as nx
 from model.label_propagation import custom_asyn_lpa_communities
-import random
 import time
 
 def label_propagation(edge_index, labels, verbose=False):

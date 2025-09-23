@@ -1,8 +1,6 @@
 import torch
 import networkx as nx
-from networkx.algorithms import community
-from collections import defaultdict, Counter
-from itertools import groupby
+from collections import defaultdict
 import random
 from utils import compute_adaptive_similarity
 

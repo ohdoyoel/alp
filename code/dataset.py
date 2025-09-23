@@ -2,7 +2,6 @@ import torch
 import numpy as np
 import os
 import pandas as pd
-from collections import deque, defaultdict
 
 def load_brightkite(sample_size=None):
     # Load Brightkite_edges.txt
