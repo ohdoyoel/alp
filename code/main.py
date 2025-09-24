@@ -73,8 +73,7 @@ def run_clustering(algorithm, dataset, alpha=None, output_path='../result'):
         pred_labels, _, iter_info, alpha_info = adaptive_label_propagation(
             data, labels,
             structure_similarity=structure_similarity,
-            location_similarity=location_similarity,
-            verbose=True
+            location_similarity=location_similarity
         )
         iterations = len(alpha_info)
         
