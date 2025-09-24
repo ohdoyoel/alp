@@ -7,7 +7,7 @@ import networkx as nx
 from networkx.utils import groups, py_random_state
 
 @py_random_state(2)
-@nx._dispatchable(edge_attrs="weight")
+# @nx._dispatchable(edge_attrs="weight")
 def custom_asyn_lpa_communities(G, weight=None, seed=None):
     """Returns communities in `G` as detected by asynchronous label
     propagation.
