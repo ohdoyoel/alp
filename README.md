@@ -21,6 +21,14 @@ The proposed ALP algorithm shows better performance than both FLP and LP algorit
 │   ├── utils.py                    # Utility functions
 │   └── main.py                     # Entry point
 ├── datasets/                       # Datasets (Brightkite, Gowalla, Custom)
+│   │   ├── custom/            
+│   │   │   ├── custom_edges.txt                
+│   │   │   ├── custom_totalCheckins.txt
+│   │   │  # Download from the link at the bottom
+│   │   ├── Brightkite_edges.txt            
+│   │   ├── Brightkite_totalCheckins.txt               
+│   │   ├── Gowalla_edges.txt          
+│   │   └── Gowalla_totalCheckins.txt  
 └── README.md
 ```
 
@@ -60,4 +68,5 @@ python main.py --algorithm ALP --dataset brightkite
 - [Brightkite](https://snap.stanford.edu/data/loc-brightkite.html)
 - [Gowalla](https://snap.stanford.edu/data/loc-gowalla.html)
 - Custom
+
 
